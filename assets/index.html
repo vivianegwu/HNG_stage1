@@ -21,7 +21,7 @@
       <nav>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a onclick ="showRegForm()" href="">Register</a></li>
+          <button onclick ="showRegForm()"><a  href="">Register</a></button>
           <li><a href="">Login</a></li>
         </ul>
       </nav>
@@ -35,8 +35,8 @@
           manage sales and product inventory  records. <br />This application is
           meant for use in a single store.
         </div>
-        <div class="login-box" id="loginBox">
-         <form >
+        <div class="login-box remove-form" id="loginBox">
+         <form class="showForm " >
            <button class="close" >close</button><br>
            <label for="fullname">Full Name</label>
            <input type="text" placeholder="please enter your name"  class="input-types"><br>

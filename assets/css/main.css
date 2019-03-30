@@ -74,6 +74,9 @@ header nav ul {
  
   
 }
+.remove-form{
+  display:none;
+}
 .login-box form {
   height: 350px;
   width: 400px;
