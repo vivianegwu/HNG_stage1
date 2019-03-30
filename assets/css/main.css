@@ -1,0 +1,115 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  margin: 0;
+  background-color: rgb(124, 120, 120);
+}
+header {
+  background-color: brown;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+ 
+}
+header nav ul li a:hover {
+  color: rgb(61, 2, 2);
+  cursor: pointer;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul {
+  list-style: none;
+}
+.storename {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.centered-text {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  line-height: 1.6;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.login-box {
+  position: fixed;
+  top:40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.login-box form {
+  height: 350px;
+  width: 400px;
+  background-color: white;
+
+}
+.login-box form label {
+  font-size: 14px;
+  display: flex;
+  justify-content:center;
+
+}
+.close{
+    margin-left:90%;
+    color:white;
+    background-color: brown;
+    border: 1px solid brown;
+    padding:3px;
+    cursor: pointer;
+}
+.input-types{
+    padding:10px;
+    width: 70%;
+    margin-top: 5px;
+    border: 5px solid rgb(173, 167, 167);
+
+}
+.register-button{
+    margin-top:5px;
+    padding:10px;
+    background-color: brown;
+    color:white;
+    border: 1px solid brown;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+

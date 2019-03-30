@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Viva</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/main.css"
+    />
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="storename">VIVA</div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a onclick ="showRegForm()" href="">Register</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <img src="../assets/img/store3.jpeg" />
+        <div class="overlay"></div>
+        <div class="centered-text">
+          Viva Store Manager is a web application that helps store owners<br />
+          manage sales and product inventory  records. <br />This application is
+          meant for use in a single store.
+        </div>
+        <div class="login-box" id="loginBox">
+         <form >
+           <button class="close" >close</button><br>
+           <label for="fullname">Full Name</label>
+           <input type="text" placeholder="please enter your name"  class="input-types"><br>
+           <label for="email">Email</label>
+           <input type="email" placeholder="please enter your email" class="input-types"><br>
+           <label for="password">Password</label>
+           <input type="password" placeholder="please enter your password"  class="input-types"><br>
+           <label for="confirm password"> Confirm Password</label>
+           <input type="password" placeholder="please confirm your password"  class="input-types"><br>
+      <button class="register-button"> Register</button>
+         </form>
+        </div>
+      </div>
+      
+    </main>
+  </body>
+</html>
